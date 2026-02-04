@@ -72,7 +72,7 @@ function loadPhotos() {
         photoItem.classList.add('photo-item');
 
         const img = document.createElement('img');
-        img.src = `../dudu/${filename}`;
+        img.src = `Dudu/${filename}`;
         img.alt = `Memory ${index + 1}`;
 
         // Handle image load error (if photo doesn't exist)
