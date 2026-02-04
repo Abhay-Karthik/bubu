@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+    <div class="hearts-container" id="hearts"></div>
+
+    <div class="login-container">
+        <h1>💕 A Special Valentine's Message 💕</h1>
+        <p class="subtitle">Enter the secret code...</p>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-btn">Enter ❤️</button>
+            <p class="error-message" id="errorMsg"></p>
+        </form>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="audio/romantic-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/hearts.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

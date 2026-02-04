@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="gallery-page">
+    <div class="hearts-container" id="hearts"></div>
+
+    <div class="gallery-container">
+        <h1 class="gallery-title">💕 Our Beautiful Memories 💕</h1>
+
+        <div class="countdown-container">
+            <h2>Countdown to Valentine's Day</h2>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span id="days" class="countdown-number">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours" class="countdown-number">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes" class="countdown-number">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds" class="countdown-number">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="photos-grid" id="photosGrid">
+            <!-- Photos will be loaded dynamically from the photos folder -->
+        </div>
+
+        <div class="final-message">
+            <p>I can't wait to spend this special day with you! ❤️</p>
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop autoplay>
+        <source src="audio/romantic-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/hearts.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
